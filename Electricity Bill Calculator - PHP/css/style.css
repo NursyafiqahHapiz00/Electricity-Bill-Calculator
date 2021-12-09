@@ -1,0 +1,141 @@
+body{
+	/*margin outside of border. padding inside border before content and the background webpage colour*/
+	/*To design the font style for the content*/
+	font:16px arial;
+	margin: 0;
+	padding: 0;
+	background: #F8E4DF;
+}
+
+#wrapper{
+	/*Allow to create a large white box to insert the content*/
+	width: 1000px;
+	margin: 50px auto 0;
+	background-color: #fff;
+}
+
+#header{
+	/*For the title header to be at center,padding is to enlarge the area*/
+	text-align: center;
+	background-color: #E0AB98;
+	padding: 30px;
+}
+
+#header h1{
+	/*how to style the header text, h1. Margin is to give space between h1 and h2*/
+	color: #fff;
+	font-size: 40px;
+	font-style: italic;
+	font-weight: 700;
+	text-transform: uppercase;
+	margin: 10;
+}
+
+#header h2{
+	/*how to style the header text, h2*/
+	color: black;
+	font-size: 20px;
+	font-style: normal;
+	font-weight: 500;
+	text-transform: normal;
+	margin: 0;
+}
+
+#page-wrap{ /*To give space for the table and form form the wrapper*/
+	padding: 25px;
+	min-height: 400px;
+}
+
+#page-wrap h2{
+	margin: 0 0 10px;
+	text-transform: capitalize;
+}
+
+#page-wrap table{ /*To design the table*/
+	width: 100%;
+	margin: 0 0 50px;
+}
+
+#page-wrap th{
+	/*To design the table header*/
+	text-align: center;
+	text-transform: normal;
+}
+
+#page-wrap table th:last-child{
+	/*th-last child allows to target the last element directly*/
+	width: 250px;
+}
+
+#page-wrap table td{
+	/*To design the table data*/
+	text-align: center;
+}
+
+#page-wrap .post-form{
+	/*To design the form part*/
+	width: 100%;
+	padding: 50px;
+	margin: 0 auto;
+	background-color: #F8E4DF;
+	border-radius: 15px; /*To produce a round edge*/
+}
+
+#page-wrap .post-form .form-group{
+	/*size and gap between one form and another form below it*/
+	margin: 10px 0 20px;	
+}
+
+#page-wrap .post-form .form-group label{
+	/*To design the form label*/
+	width: 30%;
+	display: inline-block;
+	font-weight: 600;
+}
+
+#page-wrap .post-form .form-group input,
+#page-wrap .post-form .form-group select{
+	/*Size of the form filled-in which is the box*/
+	font-size: 16px;
+	width: 66%;
+	display: inline-block;
+	padding: 5px;
+	margin: 0;
+}
+
+#page-wrap .post-form .submit{ /*designing the submit button, calculate and reset*/
+	font-size: 16px;
+	letter-spacing: 1px;
+	text-transform: uppercase;
+	padding: 5px 30px;
+	color: #333;
+	background-color: #F8F8F8;
+	border: none;
+	border-radius: 5px;
+	margin: 0 0 20px 30%;
+	cursor: pointer;
+	transition: all 0.3s;
+}
+
+#page-wrap .post-form .submit:hover{ /*designing the submit button when the mouse over it*/
+	box-shadow: 0 0 5px #555;
+}
+
+#print{ /*To design the print button*/
+	font-size: 16px;
+	font-weight: 600;
+	padding: 0px 750px;
+	display: block;
+	text-decoration: none;
+	text-transform: uppercase;
+	transition: all 0.3s ease;
+}
+
+
+#main-content { /*To design the billing summary and echo php part*/
+	padding: 50px;
+	width: 95%;
+	margin: 0 auto;
+	background-color: #F8E4DF;
+	border-radius: 15px;
+}
